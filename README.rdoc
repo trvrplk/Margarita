@@ -7,11 +7,9 @@ You will need a *index.htm* file, and *an RSS feed*. I recommend my other produc
 ==Making the CSS 
 _Margarita_ will output CSS. Add this to a style.css file. Now, type 
 
-	<link rel="stylesheet" href ="path/to/your/project/style.css" type+"text/css">
+	<?xml-stylesheet type="text/css" href="style.css"?>
 
-below your 
-	<head> 
-tag in *index.html* file.
+in your *rss.xml* or *atom.xml* file.
 
 =Thats it! You're done!
 
